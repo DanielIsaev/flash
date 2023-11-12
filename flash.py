@@ -59,7 +59,7 @@ def scan(port):
     progress = (pkt_counter/65535) * 100
     progress = format(progress, '0.1f')
     
-    if port == 65535:       #   To fix scan ending on less then 100 %
+    if q.empty():       #   To fix scan ending on less then 100 %
         time.sleep(0.1)
 
     with print_lock:
