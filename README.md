@@ -7,7 +7,7 @@ Desgined with speed and efficiency in mind, it utilizes multi-threading to achiv
 Each port is then mapped to a service via the `nmap-services` database, so `nmap` users should feel right at home! 
 for example:
 
-![out-exmp]()
+![out-exmp](https://github.com/DanielIsaev/flash/blob/main/img/out-exmp.png)
 
 
 ## Install
