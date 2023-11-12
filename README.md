@@ -8,7 +8,7 @@ All of this makes for a blazing fast runtime, with a scan of all 65535 TCP ports
 
 Each port is then mapped to a service via the `nmap-services` database, so `nmap` users should feel right at home! 
 
-for example:
+for example here is a scan againts [Legacy](https://app.hackthebox.com/machines/2) from HackTheBox:
 
 ![out-exmp](https://github.com/DanielIsaev/flash/blob/main/img/out-exmp.png)
 
@@ -31,7 +31,7 @@ After adding execute permissions it should be good to go.
 Since flash scans all 65535 TCP ports by default, it only takes one argument, the target. Which can either be an IP or a hostname. For example:
 
 ```bash
-./flash.py solidstate.htb 
+./flash.py legacy.htb 
 ./flash.py 10.129.227.181
 ```
 
