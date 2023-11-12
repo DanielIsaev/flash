@@ -15,7 +15,7 @@ for example:
 
 ## Install
 
-On a Linux platform, simply clone the reposetory to your directory of choice with:
+On a Linux platform, simply clone the repository to your directory of choice with:
 
 ```bash
 cd /opt
