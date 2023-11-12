@@ -23,17 +23,15 @@ cd flash
 chmod +x flash.py
 ```
 
-After that it should be good to go. 
+After adding execute permissions it should be good to go. 
 
 
 ## Usage
 
-The script takes one argument, the target. Which can either be an IP or a hostname. For example:
+Since flash scans all 65535 TCP ports by default, it only takes one argument, the target. Which can either be an IP or a hostname. For example:
 
 ```bash
 ./flash.py solidstate.htb 
 ./flash.py 10.129.227.181
 ```
-
-The script scans all 65535 TCP ports by default, and prints the results. No other arguments besides the target host is needed, and therefore there is no `argparse` module. 
 
