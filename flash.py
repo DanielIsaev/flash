@@ -21,7 +21,6 @@ def sig_handler(signum, frame):
 
 
 def get_source_ip(target):
-    
     res = [(s.connect((target, 53)), s.getsockname()[0], s.close()) \
             for s in [socket.socket(socket.AF_INET, socket.SOCK_DGRAM)]][0][1]
     
