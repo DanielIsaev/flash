@@ -14,7 +14,7 @@ for example here is a scan againts [SolidState](https://app.hackthebox.com/machi
 
 And here is the results from `nmap`:
 
-![nmap](https://github.com/DanielIsaev/flash/blob/main/img/nmap.png)
+![nmap](https://github.com/DanielIsaev/flash/blob/main/img/nmap-out.png)
 
 ## Install
 
