@@ -66,8 +66,7 @@ def scan(port):
         print(f'Progress: % {progress}', end='')
         print(f'\r', end='')
 
-
-       
+  
 def scan_thread():
     while not event.is_set():
         port = q.get()      
