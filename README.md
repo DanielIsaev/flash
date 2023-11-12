@@ -18,9 +18,9 @@ for example:
 On a Linux platform, simply clone the repository to your directory of choice with:
 
 ```bash
-cd /opt
 git clone https://github.com/DanielIsaev/flash
 cd flash
+chmod +x flash.py
 ```
 
 After that it should be good to go. 
