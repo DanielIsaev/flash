@@ -17,6 +17,7 @@ for example:
 On a Linux platform, simply clone the reposetory to your directory of choice with:
 
 ```bash
+cd /opt
 git clone https://github.com/DanielIsaev/flash
 cd flash
 ```
