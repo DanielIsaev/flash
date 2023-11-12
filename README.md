@@ -2,7 +2,9 @@
 
 flash is a TCP-SYN port scanner written in Python! 
 
-Desgined with speed and efficiency in mind, it utilizes multi-threading to achive concurrency, as well as an OOP approach for creating raw TCP/IP packets from scratch (without using the Scapy module!). All of this makes for a blazing fast runtime, with a scan of all 65535 TCP ports lasting about 8 seconds. 
+Desgined with speed and efficiency in mind, it utilizes multi-threading to achive concurrency, as well as an OOP approach for creating raw TCP/IP packets from scratch (without using the Scapy module!). 
+
+All of this makes for a blazing fast runtime, with a scan of all 65535 TCP ports lasting about 8 seconds. 
 
 Each port is then mapped to a service via the `nmap-services` database, so `nmap` users should feel right at home! 
 for example:
