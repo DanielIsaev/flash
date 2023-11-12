@@ -27,7 +27,7 @@ After that it should be good to go.
 
 ## Usage
 
-The script takes one argumnet, the target which can either be an IP or a hostname. For example:
+The script takes one argument, the target. Which can either be an IP or a hostname. For example:
 
 ```bash
 ./flash.py solidstate.htb 
@@ -35,3 +35,4 @@ The script takes one argumnet, the target which can either be an IP or a hostnam
 ```
 
 The script scans all 65535 TCP ports by default, and prints the results. No other arguments besides the target host is needed, and therefore there is no `argparse` module. 
+
